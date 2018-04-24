@@ -1,4 +1,4 @@
 <?php
-$homepage = file_get_contents('http://www.github.com/');
+$homepage = file_get_contents('/001.txt');
 echo $homepage;
 ?>
